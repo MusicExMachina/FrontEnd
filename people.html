@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>People - MxM</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./js/people.js"></script>
     <script src="./js/main.js"></script>
 
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/people.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 </head>
@@ -33,7 +35,84 @@
         <a href='./contact.html'>Contact</a>
     </div>
 
-    wassup people page
+    <div id="TheoModal" class="modal">
+        <div class="modal-content">
+            <span class="TheoClose close">&times;</span>
+            <p>My name is Theo Rice, and I am a senior at Rensselaer Polytechnic Institute! I joined with MxM to help with the development
+            of a website to host the team's research. I am familiar with Angular and React frameworks, as well as HTML/CSS/JS.</p>
+        </div>
+    </div>
+
+    <div id="JonModal" class="modal">
+        <div class="modal-content">
+            <span class="JonClose close">&times;</span>
+            <p>TBD</p>
+        </div>
+    </div>
+
+    <div id="PatrickModal" class="modal">
+        <div class="modal-content">
+            <span class="PatrickClose close">&times;</span>
+            <p>TBD</p>
+        </div>
+    </div>
+
+    <div id="NickModal" class="modal">
+        <div class="modal-content">
+            <span class="NickClose close">&times;</span>
+            <p>TBD</p>
+        </div>
+    </div>
+
+    <div id="DanielModal" class="modal">
+        <div class="modal-content">
+            <span class="DanielClose close">&times;</span>
+            <p>My name is Daniel Zhu and I just joined MXM project this semester. Currently I am working on the parsing of MIDI format files
+            and separate them into the desired clusters. Parsing is a crucial part of our whole project for only by reasonably cutting
+            the music chapters can we feed machine the effective data for its to learn. Currently the parser in the project is python
+            based and we are keep working on the algorithm for further improvement.</p>
+        </div>
+    </div>
+
+    <div id="GregModal" class="modal">
+        <div class="modal-content">
+            <span class="GregClose close">&times;</span>
+            <p>My name is Gregory Saini. I am a Sophomore majoring in Computer Science and am striving to learn more about the world of
+            Artificial Intelligence and Machine Learning. Currently I'm working with RPI's robotics team the Rock Raiders and open source
+            project Music ex Machina. In my free time I enjoy modding and playing video games.</p>
+        </div>
+    </div>
+
+    <div class='people-container'>
+        <div class='person' id='theo'>
+            <img src="./resources/theorice.jpg" alt="Theo">
+            <p>Theodore Rice</p>
+        </div>
+        <div class='person' id='jon'>
+            <img src="./resources/jonpatsenker.jpg" alt="Jon">
+            <p>Jonathan Patsenker</p>
+        </div>
+        <div class='person' id='patrick'>
+            <img src="./resources/patrickcelantano.jpg" alt="Patrick">
+            <p>Patrick Celantano</p>
+        </div>
+        <div class='person' id='nick'>
+            <img src="./resources/nickcurtis.jpg" alt="Nick">
+            <p>Nicholas Curtis</p>
+        </div>
+    </div>
+    <div class='people-container'>
+        <div class='person' id='daniel'>
+            <img src="./resources/guotianzhu.jpg" alt="Daniel">
+            <p>Daniel Zhu</p>
+        </div>
+        <div class='person' id='greg'>
+            <img src="./resources/gregorysaini.jpg" alt="Gregory">
+            <p>Gregory Saini</p>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
