@@ -12,11 +12,11 @@
     overflow: hidden;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5px;    
+    border-radius: 0px;
 }
 
 .navbar a {
-    float: left;
+    float: right;
     font-size: 16px;
     color: black;
     text-align: center;
@@ -42,7 +42,7 @@
 }
 
 .dropdown {
-    float: left;
+    float: right;
     overflow: hidden;
 }
 
@@ -91,6 +91,44 @@
     display: block;
 }
 
+.block {
+    background-image: url('../resources/background.jpg');
+    background-position: bottom;
+    text-align: center;
+}
+
+.block:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+
+.centered {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: rgba(60, 60, 60, 0.5);
+    border-radius: 5px;
+}
+
+.child {
+    width: 400px;
+    color: white;
+    font-size: 50px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.child p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
 body {
-    background-color: #6495ED;
+    margin: 0 0 0 0;
 }
