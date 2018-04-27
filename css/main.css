@@ -129,6 +129,24 @@
     margin-top: 0px;
 }
 
+#content h1 {
+    padding-left: 10%;
+}
+
+#content p {
+    margin-right: 0px;
+    padding-left: 10%;
+    overflow: auto;
+    display: block;
+}
+
+#content img {
+    float: right;
+    margin-left: 10px;
+    clear: both;
+    padding-right: 10%;
+}
+
 body {
     margin: 0 0 0 0;
 }
